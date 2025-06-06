@@ -1,0 +1,8 @@
+#Guideline for solve.config 
+solver=
+	CSR_Cholesky: solver in file CSR_Cholesky.f90
+	DEFAULT: CSR_Cholesky.f90
+
+matrixfile=
+	name of matrix from data folder, directory data is appended automatically
+	
