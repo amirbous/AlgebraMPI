@@ -3,6 +3,8 @@ solver=
 	CSR_Cholesky: solver in file CSR_Cholesky.f90
 	DEFAULT: CSR_Cholesky.f90
 
-matrixfile=
+problemname=
 	name of matrix from data folder, directory data is appended automatically
+matrixtype=
+	type of the matrix, 0-> dense, 1-> sparse
 	
